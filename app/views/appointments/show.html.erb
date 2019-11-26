@@ -1,0 +1,7 @@
+<h3><%= link_to(@a.doctor.name, doctor_path(@a.doctor))%></h3>
+
+<h3><%= link_to(@a.patient.name, patient_path(@a.patient))%></h3>
+
+<p><%= @t.strftime("%B")%> <%= @t.strftime("%d")%>, <%= @t.strftime("%Y")%></p> 
+
+<p><%= @t.strftime("%H")%>:<%= @t.strftime("%M")%></p>
